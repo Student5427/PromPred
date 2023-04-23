@@ -1,0 +1,115 @@
+* {
+   font-family: Cuprum, Arial, Helvetical, sans-serif;
+   margin: 0;
+   padding: 0;
+
+}
+.mail-wrapper {
+   width: 100%;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   margin-top:19vmin;
+   margin-left: 3vmin;
+  
+}
+.mail-box {
+   width: auto;
+   height: 39vmin;
+   background-color: #D4D3D3;
+   border-radius: 1.5vmin;
+   padding: 2vmin 4vmin;
+   position: relative;
+   z-index: 7;
+}
+.mail-back {
+   height: 42vmin;
+   width: 60vmin;
+   background-color: #AC3232;
+   z-index: 1;
+   position: absolute;
+   margin-top: -3vmin;
+   margin-left: -5vmin;
+   border-radius: 1.5vmin;
+}
+.name-wrap {
+   display: flex;
+   
+}
+.name {
+   display: block;
+  margin-right: 9vmin;
+ 
+}
+.surname {
+   display: block;
+ 
+}
+input {
+   width: 20vmin;
+   height: 3vmin;
+   font-size: 1.5vmin;
+   padding-left: 0.5vmin;
+   outline: none;
+   border-radius: .7vmin;
+   border: 0.2vmin solid #AC3232;
+}
+h3 {
+   font-size: 2vmin;
+}
+.email-wrap {
+   margin-top: 3vmin;
+}
+.email-inp {
+   width: 50vmin;
+   height: 3vmin;
+}
+.message-inp {
+   width: 50vmin;
+   height: 13vmin;
+   font-size: 1vmin;
+   resize: none;
+   border: 0.2vmin solid #AC3232;
+   outline: none;
+   border-radius: .7vmin;
+   padding: 0.5vmin;
+}
+.message-wrap {
+   margin-top: 2vmin;
+}
+button {
+   width: 20vmin;
+   height: 4vmin;
+   border-radius: .7vmin;
+   font-size: 1.5vmin;
+   color: aliceblue;
+   font-weight: 600;
+   transition: .2s;
+   background-color: #AC3232;
+   cursor: pointer;
+   outline: none;
+   border: none;
+}
+button:hover {
+  background-color: rgb(223, 65, 65);
+}
+button:active {
+  color: rgb(211, 176, 183);
+  background-color: #c86d6d;
+  margin-top: 0.5vmin;
+}
+.send-button {
+   width: 100%;
+   height: auto;
+   margin-top: 1.5vmin;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.mail-wrapper h3 {
+   font-weight: 500;
+   font-size: 1.7vmin;
+}
+main {
+
+}
